@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mellinaezzahir/static/css/main.19d47441.css",
+    "main.js": "/mellinaezzahir/static/js/main.66d35963.js",
+    "static/js/453.ed3810f9.chunk.js": "/mellinaezzahir/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/mellinaezzahir/index.html",
+    "main.19d47441.css.map": "/mellinaezzahir/static/css/main.19d47441.css.map",
+    "main.66d35963.js.map": "/mellinaezzahir/static/js/main.66d35963.js.map",
+    "453.ed3810f9.chunk.js.map": "/mellinaezzahir/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19d47441.css",
+    "static/js/main.66d35963.js"
+  ]
+}
