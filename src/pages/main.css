@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;400i;700&display=swap');
+
+:root{
+  --mainColor: #4B0082;
+  --accentColor: #E6E6FA;
+  --neutralBase: #333333;
+  --secondaryAccent: #008080;
+  --higlightColor: #F5F5F5;
+
+  --transparentMainColor: rgba(75, 0, 130, 0.8);
+
+  /* Apply Roboto to body text */
+  font-family: 'Roboto', sans-serif;
+  /* Additional styles for body text */
+
+}
+
+.link{
+  text-decoration: none;
+  color: var(--accentColor);
+  padding: 10px;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+/* Apply Montserrat to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  /* Additional styles for headings */
+}

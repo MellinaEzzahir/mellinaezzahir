@@ -1,0 +1,16 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--transparentMainColor);
+  color: var(--accentColor);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: background-color 0.3s;
+  z-index: 1000;
+  left:0%;
+  padding: 10px;
+}
+

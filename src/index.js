@@ -1,12 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './pages/homePage';
+import Projects from './pages/Projects';
+//import Navbar from './components/navbar/navbar';
 import reportWebVitals from './reportWebVitals';
+
+const router = createBrowserRouter([{
+  path: '/mellinaezzahir',
+  element: <App />,
+},
+{
+  path: '/projects',
+  element: <Projects/>
+},
+//{
+  //path: '*',
+  //element: <div>404 Not Found</div>,
+//}
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
